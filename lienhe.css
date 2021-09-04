@@ -1,0 +1,45 @@
+#dangky {}
+
+#topname {
+    padding-top: 5px;
+}
+
+table {
+    min-width: 900px;
+}
+
+#dangky label {}
+
+#dangky tr {}
+
+#dangky input {
+    width: 100%;
+}
+
+#dangky textarea {
+    width: 100%;
+}
+
+#dangky tr #commentbottomborder span {}
+
+#dangky button {
+    margin-top: 5px;
+    width: 150px;
+}
+
+#dangky span {}
+
+h2 {
+    padding-bottom: 1px;
+    border-bottom: 4px solid gray;
+}
+
+table {
+    border-radius: 2px solid gray;
+}
+
+@media only screen and (max-width: 1024px) {
+    table {
+        min-width: 300px;
+    }
+}

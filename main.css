@@ -1,0 +1,123 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    min-width: 300px;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu {
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border-bottom: 4px solid rgb(94, 150, 10);
+}
+
+#center {
+    padding-top: 20px;
+    width: 100%;
+    height: 40%;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+#center2 {
+    padding-top: 20px;
+    width: 100%;
+    height: 35%;
+}
+
+#centerleft {
+    width: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+#centerRight1 {
+    width: 100%;
+    min-height: 400px;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background: #111;
+    display: flex;
+}
+
+#menu.container#search input {
+    display: left;
+}
+
+#img1 {
+    width: 98%;
+    height: 300px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#center2#centerleft div #img2 {}
+
+#center2#centerleft div #img3 {}
+
+.img {
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.img2 {
+    margin-left: 30px;
+    float: left;
+    width: 20%;
+}
+
+#imgdis {
+    margin-left: 80px;
+}
+
+#footer article p {
+    font-size: 20px;
+    padding-top: 45px;
+    margin-block-end: 45px;
+}
+
+#footer a {
+    padding-top: 45px;
+}
+
+#borderText {
+    border: 2px solid greenyellow;
+    height: 110px;
+    background-color: rgb(189, 212, 154);
+}
+
+#borderText table tr p {}
+
+#search {
+    background-image: url(icon/icon_search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+input[type=search] {
+    width: 500px;
+}
+
+h2 {
+    padding-bottom: 1px;
+    border-bottom: 4px solid gray;
+}
+
+@media only screen and (max-width: 480px) {
+    #menu nav div a img {
+        display: none;
+    }
+}
