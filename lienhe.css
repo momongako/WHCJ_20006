@@ -8,7 +8,9 @@ table {
     min-width: 900px;
 }
 
-#dangky label {}
+#dangky label {
+    width: 0px;
+}
 
 #dangky tr {}
 
