@@ -1,6 +1,6 @@
 function getInfo() {
 
-    alert("cảm ơn đã đặt hàng!");
+    alert("cảm ơn đã đặt hàng đasadasdsadasdasdasfgsdfsadfasfasda!");
 
 
 }
